@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.json
-backend/venv
+/backend/venv
 __pycache__
 
 # testing
@@ -25,4 +25,3 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 public/favicon.ico
-frontend/.gitignore
