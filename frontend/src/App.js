@@ -4,10 +4,10 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Education from "./components/Education";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -18,9 +18,9 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Education />
       <Resume />
       <Contact />
+      <Footer />
     </div>
   );
 }

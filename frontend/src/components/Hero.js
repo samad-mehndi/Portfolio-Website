@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+const profilePic = process.env.PUBLIC_URL + "/profile1.png";
 
 function Hero() {
   const particlesInit = useCallback(async (engine) => {
@@ -58,11 +59,12 @@ function Hero() {
 
       {/* Hero Content */}
       <div style={styles.content}>
+        <img src={profilePic} alt="Samad Mehndi" style={styles.profileImage} />
         <h1 style={styles.title}>Samad Mehndi</h1>
         <p style={styles.subtitle}>
           Machine Learning • Embedded Systems • Web Developer
         </p>
-        <a href="/resume.pdf" download style={styles.button}>
+        <a href="/samad_mehndi_resume_.pdf" download style={styles.button}>
           Download Resume
         </a>
       </div>
@@ -73,7 +75,7 @@ function Hero() {
 const styles = {
   hero: {
     position: "relative",
-    minHeight: "450px",
+    minHeight: "520px",
     padding: "80px 20px",
     textAlign: "center",
     overflow: "hidden",
@@ -96,6 +98,16 @@ const styles = {
     position: "relative",
     zIndex: 1,
   },
+  profileImage: {
+    width: "150px",
+    height: "150px",
+    borderRadius: "50%",
+    objectFit: "cover",
+    objectPosition: "top", // <-- this pushes image downward
+    boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
+    marginBottom: "20px",
+  }
+  ,
   title: {
     fontSize: "2.8rem",
     fontFamily: "'Orbitron', sans-serif",
