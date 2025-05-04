@@ -9,10 +9,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      'service_fgk5uxg',       // EmailJS service ID
-      'template_3efxhq9',      // Template ID
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
       form.current,
-      '45tAFf9zZKQpXigN_'      // Public key
+      process.env.REACT_APP_EMAILJS_PUBLIC_KEY,     // Public key
     )
     .then(() => {
         alert("Message sent successfully!");
