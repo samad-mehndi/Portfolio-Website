@@ -32,34 +32,6 @@ const projects = [
     github: "https://github.com/samad-mehndi/Portfolio-Website",
     tech: ["Node", "React", "MongoDB"],
   },
-  {
-    title: "Real Estate Web App",
-    description: "A full-stack web application for real estate listings",
-    image: "",
-    github: "https://github.com/your-username/mental-health-chatbot",
-    tech: ["Node", "React", "MongoDB"],
-  },
-  {
-    title: "Real Estate Web App",
-    description: "A full-stack web application for real estate listings",
-    image: "",
-    github: "https://github.com/your-username/mental-health-chatbot",
-    tech: ["Node", "React", "MongoDB"],
-  },
-  {
-    title: "Real Estate Web App",
-    description: "A full-stack web application for real estate listings",
-    image: "",
-    github: "https://github.com/your-username/mental-health-chatbot",
-    tech: ["Node", "React", "MongoDB"],
-  },
-  {
-    title: "Real Estate Web App",
-    description: "A full-stack web application for real estate listings",
-    image: "",
-    github: "https://github.com/your-username/mental-health-chatbot",
-    tech: ["Node", "React", "MongoDB"],
-  },
 ];
 
 const styles = {
