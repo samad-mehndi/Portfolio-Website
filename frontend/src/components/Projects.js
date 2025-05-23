@@ -16,7 +16,7 @@ const projects = [
     description: "An NLP-powered conversational chatbot",
     image: "",
     github: "https://github.com/samad-mehndi/NLP-mental-health-chatbot",
-    tech: ["NLP", "React", "Flask"],
+    tech: ["NLP", "React", "FastAPI"],
   },
   {
     title: "Real Estate Web App",
