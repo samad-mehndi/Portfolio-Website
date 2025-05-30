@@ -35,7 +35,7 @@ const projects = [
   {
     title: "Kidney Disease Classification",
     description: "An ML pipeline using CNN to classify kidney disease from CT scan images. Integrated with DVC, MLflow, and deployed via Flask on AWS.",
-    image: "/kidney-classification.png", // Add this image to your public/assets or update path as needed
+    image: "",
     github: "https://github.com/samad-mehndi/Kidney-Disease-Classification-Project",
     tech: ["Python", "TensorFlow", "DVC", "MLflow", "Flask", "AWS"],
 }
