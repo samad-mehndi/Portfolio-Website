@@ -64,7 +64,7 @@ function Hero() {
         <p style={styles.subtitle}>
           Machine Learning • Embedded Systems • Web Developer
         </p>
-        <a href="/samad_mehndi_resume_.pdf" download style={styles.button}>
+        <a href="/Resume_SamadMehndi5.pdf" download style={styles.button}>
           Download Resume
         </a>
       </div>
