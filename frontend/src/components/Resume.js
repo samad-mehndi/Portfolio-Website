@@ -87,7 +87,7 @@ function Resume() {
           Preview Resume
         </button>
 
-        <a href="/samad_mehndi_resume_.pdf" download style={downloadButton}>
+        <a href="/Resume_SamadMehndi5.pdf" download style={downloadButton}>
           Download PDF
         </a>
       </div>
@@ -96,7 +96,7 @@ function Resume() {
       <div style={modalStyle}>
         <span onClick={() => setIsOpen(false)} style={closeBtnStyle}>&times;</span>
         <iframe
-          src="/samad_mehndi_resume_.pdf"
+          src="/Resume_SamadMehndi5.pdf"
           title="Samad Mehndi Resume"
           style={iframeStyle}
         />
