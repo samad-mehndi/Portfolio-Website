@@ -30,7 +30,7 @@ const projects = [
     description: "A personal portfolio website to showcase my work",
     image: "/portfolio.png",
     github: "https://github.com/samad-mehndi/Portfolio-Website",
-    tech: ["Node", "React", "MongoDB"],
+    tech: ["React", "JavaScript"],
   },
   {
     title: "Kidney Disease Classification",
