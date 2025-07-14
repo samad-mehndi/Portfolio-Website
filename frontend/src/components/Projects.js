@@ -5,9 +5,16 @@ import { useInView } from "react-intersection-observer";
 
 const projects = [
   {
+    title: "AutoBidder",
+    description: "A full-stack vehicle auction platform with user authentication, vehicle listing, filtering, and real-time bidding interface.",
+    image: "",
+    github: "https://github.com/samad-mehndi/AutoBidder.git",
+    tech: ["React", "Tailwind CSS", "FastAPI"]
+  },
+  {
     title: "AI Resource Allocation",
     description: "An ML model to optimize GPU usage",
-    image: "", // Placeholder for image URL if needed
+    image: "", 
     github: "https://github.com/samad-mehndi/gpu_resource_allocation",
     tech: ["Machine Learning", "Python", "TensorFlow"],
   },
