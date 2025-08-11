@@ -8,12 +8,18 @@ function Skills() {
   });
 
   const skills = [
-    { name: "Machine Learning", level: 90 },
-    { name: "React.js", level: 85 },
-    { name: "C++", level: 80 },
-    { name: "Python", level: 90 },
-    { name: "Node.js", level: 80 },
-    { name: "Embedded Systems", level: 75 },
+    { name: "Machine Learning", level: 95 },
+    { name: "React.js", level: 95 },
+    { name: "C++", level: 95 },
+    { name: "Python", level: 95 },
+    { name: "Node.js", level: 95 },
+    { name: "SQL", level: 95 },
+    { name: "NoSQL", level: 95 },
+    { name: "Data Engineering (ETL, Apache Spark, Airflow)", level: 94 },
+    { name: "Data Science (Pandas, NumPy, Matplotlib)", level: 93 },
+    { name: "Cloud Platforms (AWS/GCP/Azure)", level: 95 },
+    { name: "API Development", level: 95 },
+    { name: "Embedded Systems", level: 95 },
   ];
 
   const getBarColor = (level) => {
