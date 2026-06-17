@@ -5,6 +5,13 @@ import { useInView } from "react-intersection-observer";
 
 const projects = [
   {
+  title: "JobMap AI",
+  description: "A geospatial AI career intelligence platform that visualizes real-time tech job clusters on an interactive Mapbox map. Upload your resume to get AI-powered job matches with skill gap analysis. Features semantic natural language search using pgvector embeddings and LangGraph agents for job parsing and resume matching.",
+  image: "",
+  github: "https://github.com/samad-mehndi/jobmapAI",
+  tech: ["Next.js", "FastAPI", "LangGraph", "PostgreSQL", "pgvector", "Mapbox GL", "OpenAI", "Railway"]
+},
+  {
     title: "AutoBidder",
     description: "A full-stack vehicle auction platform with user authentication, vehicle listing, filtering, and real-time bidding interface.",
     image: "",
