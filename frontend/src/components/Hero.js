@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import Particles from "react-tsparticles";
+import Particles from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 const profilePic = process.env.PUBLIC_URL + "/profile1.png";
 
