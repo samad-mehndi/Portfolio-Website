@@ -5,12 +5,19 @@ import { useInView } from "react-intersection-observer";
 
 const projects = [
   {
+  title: "Wellness Search Engine",
+  description: "A semantic search engine over 143K crawled wellness pages built on a modern neural retrieval stack. Combines BGE-M3 dense + sparse embeddings with FAISS HNSW for fast hybrid retrieval, cross-encoder reranking for precision, and PageRank + HITS link analysis for authority signals. Features LLaMA-powered query understanding and AI answer generation, plus dense-embedding KMeans clustering for topic grouping. Includes a three-panel UI comparing results against live Google and Bing.",
+  image: "",
+  github: "https://github.com/samad-mehndi/wellness-search-engine",
+  tech: ["Python", "BGE-M3", "FAISS", "Sentence-Transformers", "Cross-Encoder", "PageRank", "HITS", "Groq LLaMA", "Flask", "scikit-learn"]
+  },
+  {
   title: "JobMap AI",
   description: "A geospatial AI career intelligence platform that visualizes real-time tech job clusters on an interactive Mapbox map. Upload your resume to get AI-powered job matches with skill gap analysis. Features semantic natural language search using pgvector embeddings and LangGraph agents for job parsing and resume matching.",
   image: "",
   github: "https://github.com/samad-mehndi/jobmapAI",
   tech: ["Next.js", "FastAPI", "LangGraph", "PostgreSQL", "pgvector", "Mapbox GL", "OpenAI", "Railway"]
-},
+  },
   {
     title: "AutoBidder",
     description: "A full-stack vehicle auction platform with user authentication, vehicle listing, filtering, and real-time bidding interface.",
